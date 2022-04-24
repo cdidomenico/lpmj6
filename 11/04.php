@@ -17,7 +17,7 @@
   {
     echo 'Author:   ' . htmlspecialchars($row['author'])    . "<br>";
     echo 'Title:    ' . htmlspecialchars($row['title'])     . "<br>";
-    echo 'Category: ' . htmlspecialchars($row['categoryr']) . "<br>";
+    echo 'Category: ' . htmlspecialchars($row['category']) . "<br>";
     echo 'Year:     ' . htmlspecialchars($row['year'])      . "<br>";
     echo 'ISBN:     ' . htmlspecialchars($row['isbn'])      . "<br><br>";
   }
